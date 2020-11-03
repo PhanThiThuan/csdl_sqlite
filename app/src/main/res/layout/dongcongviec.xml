@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="10"
+    android:padding="10dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texviewTen"
+        android:layout_weight="4"
+        android:textColor="#000000"
+        android:textSize="26sp"
+        android:text="Tên công việc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <ImageView
+        android:id="@+id/imgdelete"
+        android:layout_weight="0.5"
+        android:src="@drawable/delete"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+    <ImageView
+        android:id="@+id/imgupdate"
+        android:layout_weight="0.5"
+        android:src="@drawable/update"
+        android:layout_width="30dp"
+        android:layout_height="30dp"/>
+
+</LinearLayout>
